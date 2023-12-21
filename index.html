@@ -1,6 +1,12 @@
 <html>
 <head>
     <script type="text/javascript" src="main.js"></script>
+    <script>
+        function init(container){
+            console.log("running...");
+            document.getElementById('main').innerHTML="working locally";
+        }
+    </script>
 </head>    
 <body onLoad="init('main')">
     Hello World
