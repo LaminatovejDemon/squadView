@@ -2,15 +2,16 @@
 <head>
     <script type="text/javascript" src="main.js"></script>
     <script>
-        function init(container){
+        function init(){
             console.log("running...");
             document.getElementById('main').innerHTML="working locally";
             document.write ("hello world 2");
         }
+        init();
     </script>
 </head>    
-<body onLoad="init('main')">
+<body onload="init()">
     Hello World
-    <div id="main">asdf</div>
+    <div id="main">asdfg</div>
 </body>
 </html>
